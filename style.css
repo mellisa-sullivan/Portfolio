@@ -42,7 +42,7 @@ img {
 }
 
 main>div>article>img {
-  width: 200px;
+  width: 50%;
   margin: auto;
 }
 
