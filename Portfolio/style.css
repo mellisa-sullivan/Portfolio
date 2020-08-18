@@ -1,0 +1,82 @@
+body {
+  margin: 5% 15%;
+  background-color:#ffffff;
+}
+header, main, footer, p {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+  font-size: 35px;
+}
+header h2 {
+  font-size: 25px;
+}
+main p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+header nav ul {
+  display: flex;
+  padding: none;
+  list-style: none;
+}
+header nav ul li {
+  margin: 0 20px 0 0;
+}
+header nav ul li:last-child a{
+  margin-right: 0;
+}
+
+
+/*alignment classes*/
+.wrapper {
+  text-align: center;
+}
+.left-align {
+  text-align: left;
+}
+.right-align {
+  text-align: right;
+}
+
+/*link properties;*/
+a:link {
+  text-decoration: none;
+  color: #114B5F}
+a:visited {color: #33658A}
+a:hover {color: #58A4B0}
+a:active {color: #86BBD8}
+
+/*group & item classes;*/
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.group img {
+  width: 100%;
+}
+.item {
+  flex: 1;
+  margin: 10px;
+}
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
